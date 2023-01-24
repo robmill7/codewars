@@ -20,8 +20,7 @@ function wave(str){
     }
     else{
       wave.push(str.slice(0, i) + str[i].toUpperCase() + str.slice(i + 1))
-      //seemed to return correct answer but was not accepted...
-    //ans.push( str.replace(strArr[i],str.charAt(i).toUpperCase()))
+      
   }
 }
   
